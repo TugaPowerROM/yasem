@@ -1,0 +1,9 @@
+executing config test qca
++ cd /Users/prabhjot/Documents/Programming/yasem/plugins/yasem-mag-api/config.tests/qca && /Users/prabhjot/Documents/Programming/Qt01/5.14.2/clang_64/bin/qmake  -spec /Users/prabhjot/Documents/Programming/Qt01/5.14.2/clang_64/mkspecs/macx-clang "CONFIG -= qt debug_and_release app_bundle lib_bundle" /Users/prabhjot/Documents/Programming/yasem/plugins/yasem-mag-api/config.tests/qca
+> Project WARNING: CONFIG-=import_qpa_plugin is deprecated. Use QTPLUGIN.platforms=- instead.
++ cd /Users/prabhjot/Documents/Programming/yasem/plugins/yasem-mag-api/config.tests/qca && MAKEFLAGS= make
+> /Library/Developer/CommandLineTools/usr/bin/clang++ -c -pipe -stdlib=libc++ -O2 -std=gnu++11  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min= -fPIC -DQT_CORE_LIB -I. -I/Users/prabhjot/Documents/Programming/Qt01/5.14.2/clang_64/lib/QtCore.framework/Headers -I. -I/Users/prabhjot/Documents/Programming/Qt01/5.14.2/clang_64/mkspecs/macx-clang -o main.o main.cpp
+> clang: error: invalid version number in '-mmacosx-version-min='
+> clang: error: invalid deployment target for -stdlib=libc++ (requires OS X 10.7 or later)
+> make[1]: *** [main.o] Error 1
+test qca FAILED

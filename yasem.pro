@@ -52,7 +52,6 @@ SUBDIRS = \
     plugins/yasem-dunehd-api \
     plugins/yasem-tray-icon \
     plugins/yasem-web-server \
-    plugins/yasem-google-analytics
 
 win32: {
     SUBDIRS += plugins/yasem-windows-integration
