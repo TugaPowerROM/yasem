@@ -45,11 +45,13 @@ SUBDIRS = \
     yasem-sdk \
     yasem-core \
     plugins/yasem-desktop-gui \
+    plugins/yasem-web-browser \
     plugins/yasem-web-gui-plugin \
     plugins/yasem-qt-mediaplayer \
     plugins/yasem-ini-datasource \
     plugins/yasem-mag-api \
     plugins/yasem-dunehd-api \
+    plugins/yasem-qtav-mediaplayer \
     plugins/yasem-tray-icon \
     plugins/yasem-web-server \
     plugins/yasem-google-analytics
